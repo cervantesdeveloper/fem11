@@ -36,7 +36,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://github.com/cervantesdeveloper/fem11.git)
-- Live Site URL: [Add live site URL here](https://app.netlify.com/sites/fem11/settings/general)
+- Live Site URL: [Add live site URL here](https://fem11.netlify.app/)
 
 ## My process
 

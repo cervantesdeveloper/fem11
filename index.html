@@ -5,29 +5,47 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="CSS/styles.css">
   <title>Frontend Mentor | Base Apparel coming soon page</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
+  <main>
+    <div class="subscribe__header">
+      <img src="images//logo.svg" alt="Base apparel logo">
+    </div>
+    <div class="subscribe__hero">
+      <picture>
+        <source srcset="images/hero-mobile.jpg" media="(max-width: 1023px)">
+        <img src="images/hero-desktop.jpg" alt="young lady wearing a wrist">
+      </picture>
+    </div>
+    <div class="subscribe__main">
+      <div class="subscribe__heading">
+        <h1>We're <br> <span>coming <br>soon</span></h1>
+      </div>
+      <div class="subscribe__text">
+        <p>Hello fellow shoppers! We're currently building our new fashion store. Add your email below to stay up-to-date with announcements and our launch deals.</p>
+      </div>
 
-  We're coming soon
+      <div class="subscribe__form">
+        <form>
+          <input type="email" name="email" placeholder="Email Address" pattern="^[a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15})$" title="Please provide a valid email">
+          <input type="submit" value="">
+        </form>
+      </div>
+    </div>
 
-  Hello fellow shoppers! We're currently building our new fashion store. 
-  Add your email below to stay up-to-date with announcements and our launch deals.
+  </main>
 
-  Email Address
-  
   <footer>
     <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
+      Coded by <a href="https://cervantesdeveloper.com/" target="_blank">Cervantes Developer</a>.
     </p>
   </footer>
+  <script src="JS/script.js"></script>
 </body>
 </html>
